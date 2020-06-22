@@ -14,3 +14,6 @@
 # Fetch data on update (wo infinite loops)
 # post data to the server
    
+# sending a delete request
+
+this is similar to the above requests.
