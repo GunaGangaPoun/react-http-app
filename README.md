@@ -12,6 +12,5 @@
 # Make post selectable and update the full post
 
 # Fetch data on update (wo infinite loops)
-
-
+# post data to the server
    
