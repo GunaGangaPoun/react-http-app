@@ -17,3 +17,10 @@
 # sending a delete request
 
 this is similar to the above requests.
+
+* use interceptors to add changes in header request globally
+
+* You learned how to add an interceptor, getting rid of one is also easy. Simply store the reference to the interceptor in a variable and call eject  with that reference as an argument, to remove it (more info: https://github.com/axios/axios#interceptors):
+
+var myInterceptor = axios.interceptors.request.use(function () {/*...*/});
+axios.interceptors.request.eject(myInterceptor);
