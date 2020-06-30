@@ -109,3 +109,5 @@ sometimes you want few pages to be restricted to the unauthenticated user.those 
 using this concept we can prevent user from accessing unauthenticated pages by checking the condition.
 one way is specifing the route with condition and another way adding the check in condition in componentdidmount.
 
+---
+the technique of only downloading the file what you need is code splitting or lazy loading. This is beneficail in larger applications.not necessary to load the entire filrs.
