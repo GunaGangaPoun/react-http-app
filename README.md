@@ -104,3 +104,8 @@ or
 React router makes it easy to extract the fragment. You can simply access props.location.hash .
 
 ---------
+sometimes you want few pages to be restricted to the unauthenticated user.those are redirection guards..
+
+using this concept we can prevent user from accessing unauthenticated pages by checking the condition.
+one way is specifing the route with condition and another way adding the check in condition in componentdidmount.
+
