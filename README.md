@@ -111,3 +111,7 @@ one way is specifing the route with condition and another way adding the check i
 
 ---
 the technique of only downloading the file what you need is code splitting or lazy loading. This is beneficail in larger applications.not necessary to load the entire filrs.
+
+when hosting the app always load index.html in case of success or failure
+example.com/my-app need to set the base path of react router
+using basename   {/* <BrowserRouter basename ="/my-app"> */} in app.js
